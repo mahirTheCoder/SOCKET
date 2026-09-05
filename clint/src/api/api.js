@@ -1,8 +1,3 @@
-// ---------------------------------------------------------------------------
-// api.js
-// Every REST API call for this app lives here. Context/components should
-// never call `fetch` directly — they call these functions instead.
-// ---------------------------------------------------------------------------
 
 const BASE_URL = "http://localhost:8000/api/v1/massage";
 

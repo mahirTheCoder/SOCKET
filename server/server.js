@@ -11,14 +11,15 @@ const dbConfig = require("./configs/dbConfigs");
 const PORT = process.env.PORT;
 
 const app = express();
-
-// Middleware
-app.use(cors({ origin: "http://localhost:5173" }));
 app.use(express.json());
 
 // Routes
 app.use(router);
-dbConfig()
+dbConfig(); 
+
+// Middleware
+app.use(cors({ origin: "http://localhost:5173" }));
+
 
 const server = createServer(app);
 
