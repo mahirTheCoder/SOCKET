@@ -1,0 +1,7 @@
+.env 
+node_modules/
+
+# PORT=8000
+# BASE_URL=/api/v1
+
+# DB_URL=mongodb+srv://socket:UNURSqZtLJiXg89h@cluster0.mjewgzf.mongodb.net/socket?appName=Cluster0
